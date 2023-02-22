@@ -1,9 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.33;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .list {
@@ -20,6 +19,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-weight: 500;
 }
 .header-logo {
   font-weight: 800;
@@ -31,12 +31,6 @@ body {
   color: #2e2f42;
 }
 .logo-first-part {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.5;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 .header-links {
@@ -47,12 +41,7 @@ body {
   color: #404bbf;
 }
 .mail-tel {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 /* --------------------------------Hero----------------------- */
@@ -79,12 +68,9 @@ body {
 
 .desc-titles {
   line-height: 1.2;
-  color: #2e2f42;
+  font-size: 20px;
 }
 .desc-paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 .visually-hidden {
@@ -101,23 +87,17 @@ body {
 }
 /*=================== section 2 ===========================*/
 .introdution {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
 }
 .name-of-workers {
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
 }
 .workers-activity {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 .our-team {
@@ -135,18 +115,10 @@ body {
   color: #f4f4fd;
 }
 .footer-logo {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   color: #e7e9fc;
 }
 .list-button {
@@ -160,8 +132,8 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
-.list-button :hover {
-  background: #404bbf;
+.list-button:hover {
+  background-color: #404bbf;
   color: #ffffff;
 }
 .section-title {
@@ -170,9 +142,6 @@ body {
   color: #2e2f42;
 }
 .section-desc {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 .footer-text {
